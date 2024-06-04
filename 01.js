@@ -8,6 +8,7 @@ class Voiture {
 
   afficherDetails() {
     console.log(this.marque, this.modele, this.annee, this.couleur);
+    return this;
   }
 }
 
